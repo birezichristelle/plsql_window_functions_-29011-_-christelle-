@@ -24,7 +24,7 @@ DESCRIPITIVE INSIGHTS
 
 Branch 1001 (Kigali Main) generated RWF 300,000 in total deposits from January to March 2025.
 Alice Uwamariya was the top depositor with RWF 140,000, contributing 47% of her branch’s total.
-1 out of 8 customers (Thomas Mutoni) had zero transactions — classified as fully dormant.
+3 out of 8 customers (Thomas Mutoni) had zero transactions — classified as fully dormant.
 
 DIAGNOSTICS INSIGHTS
 
