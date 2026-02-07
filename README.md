@@ -8,6 +8,7 @@ This project uses SQL JOINs and Window Functions in MySQL 8.0 (via XAMPP) to tur
 DATABASE SCHEMA
 
   ![ER Diagram](ER Diagram.png)
+  
 SUCCESS CRITERIA
 
 This analysis fulfills the following measurable objectives using MySQL window functions:
