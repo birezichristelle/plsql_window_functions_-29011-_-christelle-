@@ -7,7 +7,7 @@ This project uses SQL JOINs and Window Functions in MySQL 8.0 (via XAMPP) to tur
 
 DATABASE SCHEMA
 
-
+  ![ER Diagram](ER Diagram.png)
 SUCCESS CRITERIA
 
 This analysis fulfills the following measurable objectives using MySQL window functions:
@@ -31,7 +31,7 @@ DIAGNOSTICS INSIGHTS
 Average deposit size dropped by 41.6% from January (RWF 85,625) to February (RWF 50,000), likely due to reduced payroll deposits after the holiday season.
 Branch 1002’s top customer (Marie Mukamana) deposited RWF 300,000 — more than double Branch 1001’s leader — suggesting stronger corporate client relationships.
 
-RECOMMENDAIONS
+RECOMMENDATIONS
 
 Launch a “Salary Advance” product for payroll customers to stabilize off-cycle deposits.
 Offer fee waivers and priority service to Quartile 1 customers (top 25%) to increase loyalty.
