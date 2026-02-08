@@ -57,3 +57,5 @@ REFERENCES
 MySQL. (2026). Window functions. In MySQL 8.0 reference manual. Oracle Corporation. https://dev.mysql.com/doc/refman/8.0/en/window-functions.htm
 
 Turban, E., Sharda, R., & Delen, D. (2011). Decision support and business intelligence systems (9th ed.). Pearson Prentice Hall.
+
+All sources were properly cited. Implementations and analyses represent original work. No AI-generated content was copied without attribution or adaptation.
