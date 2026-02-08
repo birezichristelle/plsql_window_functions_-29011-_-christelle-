@@ -14,10 +14,14 @@ SUCCESS CRITERIA
 This analysis fulfills the following measurable objectives using MySQL window functions:
 
 1. Top 5 depositors per branch → RANK()
-2. Running monthly deposit total per branch → SUM() OVER() with ROWS UNBOUNDED PRECEDING
-3. Month-over-month % change in average deposit size → LAG()
-4. Customer quartiles by transaction count → NTILE(4)
-5. 3-month moving average of daily deposits → AVG() OVER(ROWS BETWEEN 2 PRECEDING AND CURRENT ROW)
+   ![Description](screenshots/Ranking.png)
+3. Running monthly deposit total per branch → SUM() OVER() with ROWS UNBOUNDED PRECEDING
+   ![Description](screenshots/Aggregate.png)
+4. Month-over-month % change in average deposit size → LAG()
+   ![Description](screenshots/Navigation.png)
+6. Customer quartiles by transaction count → NTILE(4)
+   ![Description](screenshots/Distribution.png)
+8. 3-month moving average of daily deposits → AVG() OVER(ROWS BETWEEN 2 PRECEDING AND CURRENT ROW)
 
 KEY INSIGHTS
 
