@@ -14,7 +14,7 @@ SUCCESS CRITERIA
 This analysis fulfills the following measurable objectives using MySQL window functions:
 
 1. Top 5 depositors per branch → RANK()
-   ![Description](screenshots/Ranking.png)
+   ![Description](screenshots/ranks.png)
 3. Running monthly deposit total per branch → SUM() OVER() with ROWS UNBOUNDED PRECEDING
    ![Description](screenshots/Aggregate.png)
 4. Month-over-month % change in average deposit size → LAG()
