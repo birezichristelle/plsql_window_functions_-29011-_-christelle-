@@ -7,7 +7,7 @@ This project uses SQL JOINs and Window Functions in MySQL 8.0 (via XAMPP) to tur
 
 DATABASE SCHEMA
 
-  ![ER Diagram](ER Diagram.png)
+![ER Diagram](ER Diagram.png)
   
 SUCCESS CRITERIA
 
@@ -41,5 +41,6 @@ Send personalized reactivation offers (e.g., “We miss you! 10% bonus on your n
 REFERENCES
 
 Lecture - 01 Introduction to SQL Command Basics.pdf
+
 Lecture - 02 Introduction to GitHub.pdf
 
