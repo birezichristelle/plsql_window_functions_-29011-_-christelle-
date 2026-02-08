@@ -6,7 +6,8 @@ The Retail Banking Department faces challenges in understanding customer behavio
 This project uses SQL JOINs and Window Functions in MySQL 8.0 (via XAMPP) to turn raw data into useful business insights that support customer retention, targeted marketing, and branch performance optimization.
 
 DATABASE SCHEMA
-![ER_Diagram](screenshots/ER Diagram.png)
+
+![Description](screenshots/ER_Diagram.png)
   
 SUCCESS CRITERIA
 
