@@ -21,8 +21,18 @@ This analysis fulfills the following measurable objectives using MySQL window fu
    ![Description](screenshots/Navigation.png)
 6. Customer quartiles by transaction count → NTILE(4)
    ![Description](screenshots/Distribution.png)
-8. 3-month moving average of daily deposits → AVG() OVER(ROWS BETWEEN 2 PRECEDING AND CURRENT ROW)
 
+JOIN SQL
+1. INNER JOI
+    ![Description](screenshots/INNER_JOIN.png)   
+2. LEFT JOIN
+    ![Description](screenshots/LEFT_JOIN.png)
+3. RIGHT JOIN
+    ![Description](screenshots/RIGHT_JOIN.png)
+4. FULL OUTER JOIN
+   ![Description](screenshots/FULL_OUTER_JOIN.png)
+5. SELF JOIN
+   ![Description](screenshots/SELF_JOIN.png)
 KEY INSIGHTS
 
 DESCRIPITIVE INSIGHTS
