@@ -54,7 +54,6 @@ Send personalized reactivation offers (e.g., “We miss you! 10% bonus on your n
 
 REFERENCES
 
-Lecture - 01 Introduction to SQL Command Basics.pdf
+MySQL. (2026). Window functions. In MySQL 8.0 reference manual. Oracle Corporation. https://dev.mysql.com/doc/refman/8.0/en/window-functions.htm
 
-Lecture - 02 Introduction to GitHub.pdf
-
+Turban, E., Sharda, R., & Delen, D. (2011). Decision support and business intelligence systems (9th ed.). Pearson Prentice Hall.
