@@ -1,0 +1,40 @@
+SAMPLE DATA
+
+INSERT INTO customers (customer_id, full_name, branch_id, join_date) VALUES
+(101, 'Alice Uwamariya', 1001, '2023-03-15'),
+(102, 'Jean Nkusi',      1001, '2023-07-22'),
+(103, 'Marie Mukamana',  1002, '2024-01-10'),
+(104, 'David Habimana',  1002, '2024-02-05'),
+(105, 'Claire Ingabire', 1001, '2024-04-18'),
+(106, 'Eric Rwigema',    1003, '2024-05-30'),
+(107, 'Sophie Nyirahabimana', 1003, '2024-06-12'),
+(108, 'Thomas Mutoni',   1001, '2024-08-01');
+
+INSERT INTO accounts (account_id, customer_id, account_type, balance) VALUES
+(2001, 101, 'Savings',   75000.00),
+(2002, 101, 'Checking', 120000.00),
+(2003, 102, 'Savings',   45000.00),
+(2004, 103, 'Checking', 200000.00),
+(2005, 104, 'Savings',   30000.00),
+(2006, 105, 'Checking',  95000.00),
+(2007, 106, 'Savings',   60000.00),
+(2008, 107, 'Checking', 150000.00);
+
+INSERT INTO transactions (transaction_id, account_id, txn_date, amount, txn_type) VALUES
+
+(3001, 2001, '2025-01-10', 25000.00, 'Deposit'),
+(3002, 2001, '2025-01-20', 15000.00, 'Deposit'),
+(3003, 2002, '2025-01-05', 100000.00, 'Deposit'),
+(3004, 2003, '2025-01-12', 45000.00, 'Deposit'),
+(3005, 2004, '2025-01-18', 200000.00, 'Deposit'),
+(3006, 2005, '2025-01-22', 30000.00, 'Deposit'),
+(3007, 2006, '2025-01-25', 95000.00, 'Deposit'),
+(3008, 2007, '2025-01-30', 60000.00, 'Deposit'),
+(3009, 2001, '2025-02-05', 10000.00, 'Deposit'),
+(3010, 2002, '2025-02-10', 20000.00, 'Deposit'),
+(3011, 2004, '2025-02-15', 50000.00, 'Deposit'),
+(3012, 2006, '2025-02-20', 15000.00, 'Deposit'),
+(3013, 2008, '2025-02-25', 150000.00, 'Deposit'),  
+(3014, 2002, '2025-03-01', 5000.00, 'Deposit'),
+(3015, 2004, '2025-03-10', 25000.00, 'Deposit'),
+(3016, 2006, '2025-03-15', 10000.00, 'Deposit');
