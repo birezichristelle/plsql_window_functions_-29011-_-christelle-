@@ -1,19 +1,27 @@
  WINDOWS FUNCTIONS
 
  1. RANKING (top 5 branch depositors)
- 
- SELECT 
-    c.branch_id,
-    c.full_name,
-    SUM(t.amount) AS total_deposits,
-    RANK() OVER (PARTITION BY c.branch_id ORDER BY SUM(t.amount) DESC) AS deposit_rank
-FROM customers c
-JOIN accounts a ON c.customer_id = a.customer_id
-JOIN transactions t ON a.account_id = t.account_id
-WHERE t.txn_type = 'Deposit'
-GROUP BY c.customer_id, c.full_name, c.branch_id
-HAVING deposit_rank <= 5
-ORDER BY c.branch_id, deposit_rank;
+
+SELECT 
+    branch_id,
+    full_name,
+    total_deposits,
+    deposit_rank
+FROM (
+    SELECT 
+        c.branch_id,
+        c.full_name,
+        SUM(t.amount) AS total_deposits,
+        RANK() OVER (PARTITION BY c.branch_id ORDER BY SUM(t.amount) DESC) AS deposit_rank
+    FROM customers c
+    JOIN accounts a ON c.customer_id = a.customer_id
+    JOIN transactions t ON a.account_id = t.account_id
+    WHERE t.txn_type = 'Deposit'
+    GROUP BY c.customer_id, c.full_name, c.branch_id
+) ranked_customers
+WHERE deposit_rank <= 5
+ORDER BY branch_id, deposit_rank;
+
 
 2. Aggregate Window Functions for Running monthly deposits per branch
 
